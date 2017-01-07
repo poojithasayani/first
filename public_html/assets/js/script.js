@@ -8,6 +8,7 @@ var margin = {top: 40, right: 10, bottom: 10, left: 10},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
+
 var color = d3.scale.category20b();
 
 var treemap = d3.layout.treemap()
